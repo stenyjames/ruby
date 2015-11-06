@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-for i in 11..20
+for i in 1..20
    puts "Download songs list from page : #{i}"
    mp3url = "http://freetamilmp3.in/index.php?dir=Ilayaraja%20Evergreen%20Hits&p=1&page=#{i}" + "&sort=0" 
    puts "The url is " + mp3url
